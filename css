@@ -1,0 +1,154 @@
+/* Google Font */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap');
+
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Body */
+body {
+  font-family: 'Poppins', sans-serif;
+  background-color: #f5f7fa;
+  color: #333;
+  line-height: 1.6;
+}
+
+/* Navbar */
+nav {
+  background: #0d6efd;
+  padding: 15px 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: white;
+}
+
+nav h1 {
+  font-size: 20px;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+}
+
+nav ul li {
+  margin-left: 20px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: white;
+  transition: 0.3s;
+}
+
+nav ul li a:hover {
+  color: #ffd166;
+}
+
+/* Container */
+.container {
+  width: 80%;
+  margin: auto;
+  padding: 20px 0;
+}
+
+/* Sections */
+.section {
+  margin-bottom: 30px;
+}
+
+.section h2 {
+  margin-bottom: 10px;
+  color: #0d6efd;
+  border-bottom: 2px solid #0d6efd;
+  display: inline-block;
+  padding-bottom: 5px;
+}
+
+/* Card Layout */
+.card {
+  background: white;
+  padding: 15px;
+  margin-top: 10px;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.08);
+  transition: transform 0.2s;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+}
+
+/* Skills */
+.skills span {
+  display: inline-block;
+  background: #0d6efd;
+  color: white;
+  padding: 5px 10px;
+  margin: 5px;
+  border-radius: 5px;
+  font-size: 14px;
+}
+
+/* Buttons */
+button {
+  background: #0d6efd;
+  color: white;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+button:hover {
+  background: #084298;
+}
+
+/* Header Section */
+.header {
+  text-align: center;
+  padding: 40px 0;
+}
+
+.header h1 {
+  font-size: 32px;
+}
+
+.header p {
+  color: #666;
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  padding: 15px;
+  background: #0d6efd;
+  color: white;
+  margin-top: 30px;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .container {
+    width: 95%;
+  }
+
+  nav {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  nav ul {
+    flex-direction: column;
+    margin-top: 10px;
+  }
+
+  nav ul li {
+    margin: 5px 0;
+  }
+}
